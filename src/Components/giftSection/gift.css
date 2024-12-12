@@ -1,0 +1,67 @@
+.giftSection {
+  clear: both;
+  margin-top: 4em;
+  background-color: #1e1e1e;
+  height: 50rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  font-family: "Metropolis";
+}
+
+.giftRight {
+  width: 50%;
+  font-weight: 700;
+  font-size: xx-large;
+  margin-top: 3em;
+}
+
+.giftGif {
+  border-radius: 20em;
+  width: 50%;
+}
+
+.color {
+  color: #f5a623;
+}
+
+.list p {
+  padding-top: 0.5em;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+.icn {
+  height: 18px;
+  width: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .giftSection {
+    display: block;
+    margin-top: 1em;
+  }
+
+  .giftGif {
+    width: 100%;
+    display: block;
+  }
+
+  .giftRight {
+    margin-top: -0.1em;
+    width: 100%;
+    margin-left: 5em;
+    justify-items: left;
+    font-size: medium;
+  }
+
+  .color {
+    width: 100%;
+  }
+
+  .icn {
+    height: 10px;
+    width: 10px;
+  }
+}

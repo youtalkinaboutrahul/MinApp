@@ -1,0 +1,34 @@
+.Footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  height: 40vh;
+  width: 100%;
+  color: white;
+  background-color: black;
+  font-family: "Metropolis";
+}
+
+.fLeft {
+  padding-top: 3em;
+  text-align: left;
+  padding-left: 5em;
+  line-height: 1.8em;
+}
+
+.copy {
+  padding-top: 1em;
+}
+
+.fRight {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding-top: 3em;
+  padding-left: 5em;
+  text-align: left;
+}
+
+.companytxt {
+  line-height: 2em;
+}

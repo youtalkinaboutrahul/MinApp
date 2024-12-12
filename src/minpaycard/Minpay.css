@@ -1,0 +1,70 @@
+.minPay {
+  display: flex;
+  text-align: center;
+  margin-top: 3em;
+  justify-content: space-around;
+  width: 100%;
+  font-family: "Metropolis";
+  background-color: #1e1e1e;
+  clear: both;
+  height: 70rem;
+  color: white;
+}
+
+.team {
+  position: absolute;
+  margin-top: 3em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.upc {
+  width: 350px;
+  margin: 20px;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  line-height: 2em;
+}
+
+.cardcolor {
+  background: #494949b5;
+  position: relative;
+  padding-bottom: 10em;
+  margin-top: 12em;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.gradient {
+  margin-top: 3em;
+  background-image: linear-gradient(#91baff, #205fff);
+  height: 125px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.profile-down {
+  height: 180px;
+  margin-top: -80px;
+  justify-items: center;
+  padding: 5px;
+  background: rgb(255, 255, 255);
+}
+
+.profile-title {
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.profile-description {
+  font-weight: 400;
+}
+
+.profile-button {
+  background-color: #f5a623;
+  padding: 8px;
+  border-radius: 40px;
+}
+
+.profile-button:hover {
+  background-color: #1e1e1e;
+}

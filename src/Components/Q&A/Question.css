@@ -1,0 +1,124 @@
+.QA {
+  clear: both;
+  height: 65rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: black;
+  font-family: "Metropolis";
+}
+
+.qLeft {
+  font-size: x-large;
+  font-weight: 600;
+  padding-left: 6em;
+  text-align: left;
+  padding-top: 3em;
+}
+
+.qRight {
+  width: 50%;
+}
+
+.qimg {
+  height: 20em;
+  padding-top: 10em;
+  margin-left: 5em;
+}
+
+.imgtxt {
+  font-size: large;
+  font-weight: 500;
+  position: absolute;
+  padding-top: 15.5em;
+  padding-left: 10em;
+}
+
+.secimgtxt {
+  line-height: 1.5em;
+}
+
+.imgbtn {
+  padding-top: 2em;
+}
+
+.imgsbtn {
+  height: 35px;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid #f5a623;
+  background-color: #f5a623;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-family: "Metropolis";
+  cursor: pointer;
+}
+
+.imgsbtn:hover {
+  background-color: transparent;
+}
+
+/* 
+///Accordian/// */
+
+.faQaccordion {
+  width: 50%;
+  margin-left: -0.5em;
+  margin-top: 2em;
+}
+
+.faQdropicn {
+  height: 18px;
+  width: 18px;
+  float: right;
+  margin-right: -8em;
+  margin-top: 0.7em;
+}
+
+.Collapsible {
+  background-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  width: 30em;
+  cursor: pointer;
+  padding: 1em;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.Collapsible__trigger {
+  margin-bottom: 2em;
+  font-weight: 600;
+}
+
+.Collapsible__contentOuter {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #686868;
+  line-height: 1em;
+}
+
+.Collapsible__contentInner {
+  margin: 20px;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.faQparaleft {
+  padding-left: 1.5em;
+}
+
+.faQaccicn {
+  height: 15px;
+  width: 15px;
+  padding-right: 0.5em;
+}
+
+.faQloveani {
+  height: 25em;
+  width: 25em;
+  margin-left: 8em;
+}

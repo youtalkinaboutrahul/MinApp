@@ -1,0 +1,93 @@
+.Home {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  line-height: 5em;
+  margin-top: 2em;
+  font-weight: 800;
+  width: 100%;
+  font-family: "Metropolis";
+}
+
+.teen {
+  color: #f5a623;
+  justify-content: space-around;
+}
+
+.left {
+  font-size: 4em;
+  margin-top: 1em;
+  text-align: left;
+  padding-top: 1em;
+}
+
+.createbtn {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid #f5a623;
+  background-color: #f5a623;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-family: "Metropolis";
+  cursor: pointer;
+}
+
+.createbtn:hover {
+  background-color: white;
+}
+
+.image {
+  width: 35em;
+  margin-top: 3em;
+}
+
+.state {
+  display: flex;
+  justify-content: space-around;
+  color: #f5a623;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.count {
+  margin-top: -0.5em;
+}
+
+.count > :nth-child(1) {
+  font-size: 2rem;
+}
+
+.count > :nth-child(1) > :last-child {
+  color: black;
+}
+
+.secondaryTxt {
+  color: rgb(51, 51, 51);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .Home {
+    display: block;
+  }
+
+  .teen {
+    display: block;
+  }
+
+  .left {
+    text-align: center;
+    margin-top: -1em;
+  }
+
+  .image {
+    width: 20em;
+    position: relative;
+  }
+
+  .state {
+    display: inherit;
+  }
+}

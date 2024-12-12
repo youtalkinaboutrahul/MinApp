@@ -1,0 +1,33 @@
+.limit {
+  clear: both;
+  height: 50rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: black;
+  font-family: "Metropolis";
+}
+
+.limitLeft {
+  font-size: x-large;
+  font-weight: 700;
+  padding-left: 6em;
+  padding-top: 7em;
+}
+
+.sectxt {
+  padding-top: 2em;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.limitRight {
+  width: 50%;
+}
+
+.kyc {
+  height: 20em;
+  padding-top: 5em;
+  margin-left: 5em;
+}

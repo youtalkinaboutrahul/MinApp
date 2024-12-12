@@ -1,0 +1,63 @@
+.contact {
+  font-family: "Metropolis";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+form {
+  max-width: 600px;
+  width: 100%;
+  padding: 25px 25px 30px;
+  color: #ffffff;
+  margin: 25px;
+}
+
+form h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+form .input-box {
+  margin-top: 20px;
+}
+
+.input-box .field {
+  width: 100%;
+  height: 20px;
+  background: transparent;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.input-box .field-mess {
+  font-family: "Metropolis";
+  height: 150px;
+  margin-top: 1em;
+  color: white;
+  resize: none;
+  width: 108%;
+  background-color: transparent;
+}
+
+form button {
+  margin-top: 1em;
+  width: 110%;
+  height: 40px;
+  background: #f5a623;
+  font-family: "Metropolis";
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: #ffffff;
+}

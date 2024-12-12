@@ -1,0 +1,110 @@
+*,
+*::after *::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+  font-weight: 500;
+  font-family: "Metropolis";
+}
+
+a {
+  text-decoration: none;
+  color: rgb(251, 251, 251);
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  height: 10vh;
+  background-color: #090807;
+}
+
+.nav_menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+.App-logo {
+  width: 128px;
+}
+
+/* Contact button */
+
+.contactbtn {
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  top: 1px;
+  border-radius: 10px;
+  border: 1px solid #f5a623;
+  background: none;
+  color: white;
+  font-weight: 500;
+  font-family: "Metropolis";
+}
+
+.contactbtn {
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.contactbtn:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1);
+  color: #090807;
+  background-color: #f5a623;
+}
+
+/* //////////// */
+
+.nav_toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: darkgray;
+}
+
+.nav_toggler {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_toggler {
+    display: block;
+    margin-top: 1em;
+  }
+
+  .nav_menu {
+    position: fixed;
+    top: 5.5vh;
+    right: 0;
+    width: 50%;
+    height: 39vh;
+    background-color: black;
+    flex-direction: column;
+    transition: 0.5s ease-in;
+  }
+}
+
+/* Nav Active Class */
+
+.nav_active {
+  transform: translateX(100%);
+}

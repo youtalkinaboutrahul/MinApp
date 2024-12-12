@@ -1,0 +1,23 @@
+.minxSection {
+  clear: both;
+  height: 45rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: black;
+  font-family: "Metropolis";
+}
+
+.minxRight {
+  width: 50%;
+  font-weight: 700;
+  font-size: xx-large;
+  margin-top: 3em;
+}
+
+.minicon {
+  margin-top: 3em;
+  border-radius: 15em;
+  height: 22em;
+  padding-left: 9em;
+}

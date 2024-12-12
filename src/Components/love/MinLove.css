@@ -1,0 +1,75 @@
+.mainContainer {
+  clear: both;
+  background-color: #1e1e1e;
+  height: 50rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  font-family: "Metropolis";
+}
+
+.minLeft {
+  width: 50%;
+}
+
+.accordion {
+  width: 50%;
+  margin-left: 10em;
+}
+
+.dropicn {
+  height: 18px;
+  width: 18px;
+  float: right;
+  margin-right: 15em;
+  margin-top: 0.7em;
+}
+
+.Collapsible {
+  background-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  width: 30em;
+  cursor: pointer;
+  padding: 1em;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.Collapsible__trigger {
+  margin-bottom: 2em;
+  font-weight: 600;
+}
+
+.Collapsible__contentOuter {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #686868;
+  line-height: 1em;
+}
+
+.Collapsible__contentInner {
+  margin: 20px;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.paraleft {
+  padding-left: 1.5em;
+}
+
+.accicn {
+  height: 15px;
+  width: 15px;
+  padding-right: 0.5em;
+}
+
+.loveani {
+  height: 25em;
+  width: 25em;
+  margin-left: 8em;
+}
